@@ -1,0 +1,155 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+
+.chair ul li img {
+    margin-top: 20px;
+    z-index: 20;  
+}
+
+.ChairGreen{
+    width: 200px;
+    border-radius: 20%;
+	position: absolute;
+	right: 110px;
+    top: 20px;
+}
+
+.ChairWhite{
+	width: 180px;
+    border-radius: 40%;
+	position: absolute;
+	top: 240px;
+	right: 110px;
+	bottom: 209px;
+}
+
+.chairBlue{
+	width: 180px;
+    border-radius: 40%;
+	position: absolute;
+	top: 240px;
+	right: 110px;
+	top: 440px;
+}
+
+.comment {
+	width: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 355px;
+	left: 705px;
+	z-index: 300;
+}
+
+.comment2{
+	width: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 265px;
+	right: 265px;
+	z-index: 300;
+}
+
+.container {
+    width:100%;
+    position: relative;
+    bottom: 10px;
+}
+
+.textContainer {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.textContainer h1{
+    font-size: 3rem;
+    color: #696969;
+}
+
+.textContainer p {
+    margin-top: 20px;
+    color: #696969;
+    font-size: 2rem;
+}
+
+.textContainer span{
+    color: #69C;
+    font-weight: bold;
+	
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	font-family: inherit;
+	font-size: 100%;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 150px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 230px;
+	background-color: #fff;
+	border-color: #69C;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+

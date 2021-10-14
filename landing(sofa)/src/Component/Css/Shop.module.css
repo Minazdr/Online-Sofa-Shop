@@ -1,0 +1,170 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    height: 500px;
+    width: 200px;
+    position: relative;
+    right: 15px;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;   
+}
+
+.card_heder{
+    border-radius: 40px;                 
+    background: #ffffff;
+    box-shadow:  0px 20px 90px #a09e9e,
+            -0px -0px 0px #ffffff;
+    z-index: 200;
+}
+
+.heart{
+    width: 20px;
+    position: relative;
+    left: 280px;
+    bottom: 200px;
+    z-index: 500;
+    cursor: pointer;
+}
+
+.angle{
+    width: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 200px;
+    z-index: 500;
+    cursor: pointer;
+
+}
+
+.footer {
+    background: #a09e9e;
+    box-shadow:  20px 20px 60px #c2bcbc,
+            -20px -20px 60px #fffefe;
+    height: 140px;
+    width: 300px;
+    position: absolute;
+    top: 385px;
+    border-radius: 20px;
+    padding-left: -20px;
+    left: -30px;
+}
+
+.card_img{
+    width: 300px;
+    
+}
+
+
+
+.product_name{
+    font-family: cursive;
+    
+}
+
+
+.price_btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+
+.price{
+    margin-top: 5px;
+    font-family: cursive;
+
+    font-size: 20px;
+}
+
+
+.description {
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+
+.main_content {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    position: relative; 
+
+}
+
+
+.currency {
+    font-weight: bold;
+    
+}
+
+
+
+.title{
+    margin-left: 20px;
+}
+
+
+  
+  
+
+.btn {
+    width: 115px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(153, 153, 153, 0.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: #43434b;
+    border: none;
+    z-index: 1;
+  }
+  
+
+  .btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ba9ec9;;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(184, 181, 181, 0.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    color: rgb(27, 26, 26);
+    font-weight: 500;
+   
+  }
+  .btn:hover:after {
+    left: 0;
+    width: 100%;
+    font-weight: 500;
+  }
+  .btn:active {
+    top: 2px;
+    font-weight: 500;
+  }
+  
+ 

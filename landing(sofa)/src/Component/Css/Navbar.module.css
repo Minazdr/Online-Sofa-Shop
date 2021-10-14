@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    /* border-radius: 10%;  */
+    margin-left:20px;
+    width:76%;    
+}
+.shopping ,
+.user ,
+.envelope,
+.comment {
+    width: 23px;
+}
+
+.logo {
+    width: 0px;
+    border-radius: 50%;
+    padding: 10px ;
+    margin: auto 0 ;
+}
+
+.logo ul {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo ul li {
+    margin: 20px;
+    list-style: none;
+    width: 50px;
+    margin-right: 20px;
+    
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+}
+
+.api:hover,
+.Cantact:hover,
+.products:hover {
+    background-color: rgb(200, 218, 236);
+    border-radius: 5%;
+}
+
+.home{
+    width: 20px;
+    margin-right: 40px;
+}
+
+.home:hover{
+    background-color: white;
+}
+
+
+.list li a {
+    color:  black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+    font-family: cursive;
+    
+}
+
+
+a {
+	color: #69C;
+	text-decoration: none;
+}
+
